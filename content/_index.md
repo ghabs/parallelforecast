@@ -7,7 +7,7 @@ outputs = ["Reveal"]
 
 <img src="/color_logo_transparent.png" width="300px" height="300px">
 
-Working to build better systems for generating common knowledge.
+We’re a team of alumni from Oxford and Google building more reliable methods for forecasting AI Progress.
 
 ---
 
