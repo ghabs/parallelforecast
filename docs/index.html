@@ -19,29 +19,21 @@
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
     
-<style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-.reveal {
-  font-family: 'Montserrat', sans-serif;
-}
 
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6 {
-  font-family: 'Montserrat', sans-serif;
+<style>
+ 
+.section {
+  background-color: white;
 }
 
 </style>
+
   </head>
   <body>
-  <div class="reveal">
+    <div class="reveal">
+      <div class="slides">
   
-  <div class="slides">
-    
-    <section><section data-shortcode-section>
+<section><section data-shortcode-section>
 <p><img src="/color_logo_transparent.png" width="300px" height="300px"></p>
 
 <p>Working to build better systems for generating common knowledge.</p>
@@ -54,9 +46,12 @@
 
 </section>
 </section>
-  </div>
+
 </div>
-<script type="application/json" id="reveal-hugo-site-params">null</script>
+      
+
+    </div>
+    <script type="application/json" id="reveal-hugo-site-params">null</script>
     <script type="application/json" id="reveal-hugo-page-params">null</script>
     <script type="text/javascript"> window.revealHugoDependencies = { dependencies: [ { src: '\/reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: '\/reveal-js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
@@ -98,5 +93,14 @@
     </script>
     
     
+
+
+<script type="text/javascript">
+
+Reveal.addEventListener('slidechanged', function(event) {
+  console.log("🎞️ Slide is now " + event.indexh);
+});
+</script>
+
   </body>
 </html>
