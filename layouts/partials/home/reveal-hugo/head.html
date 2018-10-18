@@ -1,10 +1,23 @@
 <!-- This partial is included before the end of the head tag for only the 'example' presentation -->
 <!-- A common use would be to add CSS to the page to customize the theme -->
+
 <style>
 /* Add padding, margin and a hover effect on code samples */
 .reveal section img {
   background: none; /* commenting this out to remove white logo background rgba(255, 255, 255, 0.12); */
-  border: none; /* 4px solid #fff; */
-  box-shadow: none; 
-} 
+  border: none; /* none; /* 4px solid #fff; */
+  box-shadow: none;
+}
+
+body {
+  background: #000
+}
+
+body { /* adding logo to corner */
+  background-image: url("/dark_logo_transparent.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: auto 25%;
+}
+
 </style>
