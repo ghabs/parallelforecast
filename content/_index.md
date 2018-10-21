@@ -23,7 +23,7 @@ and nav.html --->
     <span data-ty>Total training time: 10 min</span>
 </div>
 
-How probable is this is possible by 2022?
+How probable is this by 2022?
 
 <!--- </div> --->
 
