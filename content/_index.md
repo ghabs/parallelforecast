@@ -34,13 +34,11 @@ How probable is this by 2022?
 
 We're building more robust tools for forecasting AI progress
 
-<font size=5>
 
 {{% fragment %}} _1 Prediction markets_ &nbsp;&nbsp; By constructing a futures contract on metrics of interest, we can use the market mechanism to incentivize forecasts and generate robust prices. Prediction markets have a rich theoretical grounding ([Arrow et al., 2008](http://science.sciencemag.org/content/320/5878/877)), and a track-record of predicting events ranging from elections ([Berg et al., 2008](https://econpapers.repec.org/article/eeeintfor/v_3a24_3ay_3a2008_3ai_3a2_3ap_3a285-300.htm)), infectious disease activity ([Polgreen et al., 2007](https://academic.oup.com/cid/article/44/2/272/330878)), tech product sales ([Plott & Kay-Yut, 2002](https://authors.library.caltech.edu/44358/)) and more.{{% /fragment %}}
 
 {{% fragment %}} _2 Superforecasting_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Prediction markets can fail due to lack of liquidity, errors in contract formulation, or catastrophic events events which leave the insurer unable to settle the contract. Hence, in collaboration with [Metaculus](https://www.metaculus.com/questions/), we're also building a dedicated community of AI forecasters, and aggregating their predictions using algorithms based on their track-record.{{% /fragment %}}
 
-</font>
 
 ---
 
@@ -48,7 +46,6 @@ We're building more robust tools for forecasting AI progress
 
 Reach out at: _hello@parallelforecast.com_
 
-<font size=5>
 
 We’re a team from Google and Oxford who believe in the importance of building better institutions for making intellectual progress.
 
@@ -59,6 +56,5 @@ We’d especially like to hear from you if:
 
 
 </div>
-</font>
 
 {{% /section %}}
